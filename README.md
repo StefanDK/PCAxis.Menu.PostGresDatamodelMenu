@@ -1,2 +1,2 @@
-# PCAxis.Menu.OracleDatamodelMenu
-DatamodelMenu implementation for usage with Oracle
+# PCAxis.Menu.PostGresDatamodelMenu
+DatamodelMenu implementation for usage with PostGres

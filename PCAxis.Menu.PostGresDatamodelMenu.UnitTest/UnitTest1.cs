@@ -1,6 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace PCAxis.Menu.OracleDatamodelMenu.UnitTest
+namespace PCAxis.Menu.PostGresDatamodelMenu.UnitTest
 {
 	[TestClass]
 	public class UnitTest1

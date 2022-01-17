@@ -4,15 +4,18 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Description>DatamodelMenu implementation for usage with Oracle</Description>
-    <PackageProjectUrl>https://github.com/statisticssweden/PCAxis.Menu.OracleDatamodelMenu</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/statisticssweden/PCAxis.Menu.OracleDatamodelMenu.git</RepositoryUrl>
+    <Description>DatamodelMenu implementation for usage with PostGres</Description>
+    <PackageProjectUrl>https://github.com/StefanDK/PCAxis.Menu.PostGresDatamodelMenu</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/StefanDK/PCAxis.Menu.PostGresDatamodelMenu</RepositoryUrl>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <RepositoryType>git</RepositoryType>
     <PackageTags>PX</PackageTags>
     <MinVerTagPrefix>v</MinVerTagPrefix>
     <MinVerDefaultPreReleasePhase>beta</MinVerDefaultPreReleasePhase>
     <MinVerSkip Condition="'$(Configuration)' == 'Debug'">true</MinVerSkip>
+    <PackageId>PCAxis.Menu.PostGresDatamodelMenu</PackageId>
+    <Authors>PCAxis.Menu.PostGresDatamodelMenu</Authors>
+    <Product>PCAxis.Menu.PostGresDatamodelMenu</Product>
   </PropertyGroup>
 
   <ItemGroup>
@@ -25,7 +28,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="2.19.60" />
+    <PackageReference Include="Npgsql" Version="6.0.2" />
     <PackageReference Include="PCAxis.Menu" Version="1.0.1" />
   </ItemGroup>
 
